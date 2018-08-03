@@ -1,0 +1,86 @@
+#header {
+    height: 70px;
+    background-color: #405d9b;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    margin: 0;
+    width:  980px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand-logo {
+    color: white;
+    font-size: 30px;
+}
+
+#home-content {
+    background: linear-gradient(white, #D3D8E8);
+
+
+
+    padding-left: 15%;
+    padding-right: 15%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.input-group{
+    display: flex;
+}
+
+/* #first-name{
+    margin-right: 5px;
+}
+
+#surename {
+    margin-left: 5px;
+} */
+
+#mobile-or-email{
+    margin-top: 10px;
+    width: 100%
+}
+@media(max-width:568px){
+    
+    background-attachment: scroll;
+}
+
+
+.label-nama{
+    font-size: smaller;
+}
+
+.letak-s{
+flex-direction: column;
+    
+    
+}
+.radio-button{
+    display: flex;
+    margin-left: 10px;
+}
+.tulisan{
+    font-size: 11px;
+
+}
+.judul1{
+    color: #0e385f;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 40px;
+    width: 350px;
+    word-spacing: 2px;
+}
